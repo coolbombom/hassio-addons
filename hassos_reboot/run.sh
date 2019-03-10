@@ -1,6 +1,6 @@
-hassio host reboot
-
 #!/bin/sh
+echo "Rebooting HassOS"
+/usr/bin/hassio host reboot
 
 #FILE="/share/hassos.rb"
 
