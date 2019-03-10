@@ -1,0 +1,10 @@
+{
+  "name": "HassOS reboot",
+  "version": "1",
+  "slug": "hassos_reboot",
+  "description": "Will reboot HassOS when enabled",
+  "startup": "false",
+  "boot": "false",
+  "options": {},
+  "schema": {}
+}
