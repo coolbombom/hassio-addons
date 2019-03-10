@@ -5,6 +5,7 @@
   "description": "Will reboot HassOS when enabled",
   "startup": "once",
   "boot": "manual",
+  "hassio_role":"admin",
   "hassio_api":true,
   "options": {},
   "schema": {}
