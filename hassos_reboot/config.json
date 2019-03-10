@@ -26,6 +26,13 @@
   "devices": [
     "/dev/mem:/dev/mem:rwm"
   ],
+  "map": [
+    "config:rw",
+    "ssl:rw",
+    "addons:rw",
+    "share:rw",
+    "backup:rw"
+  ],
   "options": {},
   "schema": {}
 }
