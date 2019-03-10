@@ -3,8 +3,9 @@
   "version": "1",
   "slug": "hassos_reboot",
   "description": "Will reboot HassOS when enabled",
-  "startup": "false",
-  "boot": "false",
+  "startup": "once",
+  "boot": "manual",
+  "hassio_api":true,
   "options": {},
   "schema": {}
 }
